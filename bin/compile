@@ -14,5 +14,3 @@ fi
 
 # replace hello with goodbye in a new file
 cat $1/hello.txt | sed -e "s/[Hh]ello/Goodbye/g" > $1/goodbye.txt
-
-sudo apt-get install nginx
